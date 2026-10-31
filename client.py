@@ -72,7 +72,7 @@ def main():
 
 
     conn.close()  #这个时候会给服务端发 b"" ， 服务端的recv_exactly()函数就会返回None，服务端的while函数就会break掉了
-    print("客户端断开连接")
+    print("客户端断开连接了")
 
 
 
